@@ -41,7 +41,7 @@ app.controller('MainCtrl', function ($scope, chartService) {
 
                 zoom: {
                     enabled: true,
-                    scaleExtent: [1, 10],
+                    scaleExtent: [10, 200],
                     useFixedDomain: false,
                     useNiceScale: false,
                     horizontalOff: false,
