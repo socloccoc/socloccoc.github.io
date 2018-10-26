@@ -22,9 +22,9 @@ function barchart() {
           .scale(y)
           .ticks(Math.floor(height/50));
       
-      var svg = d3.select(this).select("svg")
-         .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    //   var svg = d3.select(this).select("svg")
+    //      .append("g")
+    //         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
       
       x.domain(data.map(function(d) { return d.TIMESTAMP; }));
       y.domain([0, d3.max(data, function(d) { return d[MValue]; })]).nice();
@@ -32,10 +32,10 @@ function barchart() {
       var xtickdelta   = Math.ceil(60/(width/data.length))
       xAxis.tickValues(x.domain().filter(function(d, i) { return !((i+Math.floor(xtickdelta/2)) % xtickdelta); }));
   
-      svg.append("g")
-          .attr("class", "axis yaxis")
-          .attr("transform", "translate(" + width + ",0)")
-          .call(yAxis.orient("right").tickFormat("").tickSize(0));
+    //   svg.append("g")
+    //       .attr("class", "axis yaxis")
+    //       .attr("transform", "translate(" + width + ",0)")
+    //       .call(yAxis.orient("right").tickFormat("").tickSize(0));
   
 //      svg.append("g")
 //          .attr("class", "axis yaxis")
