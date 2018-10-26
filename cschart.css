@@ -58,7 +58,7 @@
                 -moz-box-shadow: none;
                 box-shadow: none;
               }
-#infobar   { width: 440px; height: 25px; float: left; padding-top: 5px; text-align: left; font-family: sans-serif; color:#fff; }
+#infobar   { width: 440px; height: 25px; float: left; padding-top: 5px; text-align: left; font-family: sans-serif; color:#000; }
 .infohead  { width: 140px; height: 25px; margin: 0px 2px; float: left; }
 .infobox   { width: 70px; height: 30px; margin: 0px 2px; float: left; }
 
