@@ -65,3 +65,4 @@
 #volchart .volbar .volfill { fill: crimson; } 
 #volchart .sigbar .sigfill { fill: crimson; } 
 #volchart input { cursor: pointer; }
+svg{ height:320px !important; }
