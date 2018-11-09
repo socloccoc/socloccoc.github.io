@@ -8,7 +8,7 @@
         return {
             
             get: function (date) {
-                return $http.get("http://coinzukan.xsrv.jp/api/candlestickData/" + date);
+                return $http.get("http://coinzukan.xsrv.jp/api/candlestickData1/" + date);
             }
         }
     }
