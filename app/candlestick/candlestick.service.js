@@ -8,7 +8,7 @@
         return {
             
             get: function (date) {
-                return $http.get("http://localhost:8000/api/candlestickData1/ + date);
+                return $http.get("http://localhost:8000/api/candlestickData1/" + date);
             }
         }
     }
