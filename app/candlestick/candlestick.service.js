@@ -7,7 +7,7 @@
     function candlestickService($http, $localStorage) {
         return {
             get: function (date) {
-                return $http.get("http://coinzukan.xsrv.jp/api/candlestickData1/" + date);
+                return $http.get("https://coinzukan.xsrv.jp/api/candlestickData1/" + date);
             }
         }
     }
