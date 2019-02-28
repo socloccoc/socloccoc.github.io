@@ -1,9 +1,0 @@
-<div ng-init="vm.myFunc()" ng-controller="CandlestickController as vm">
-    <div class="btn-group" role="group" aria-label="...">
-        <button type="button" ng-class="vm.date=='1D' ? 'active' : '' " ui-sref="candlestick({date: '1D'})" class="btn btn-default">1D</button>
-        <button type="button" ng-class="vm.date=='3D' ? 'active' : '' " ui-sref="candlestick({date: '3D'})" class="btn btn-default">3D</button>
-        <button type="button" disabled class="btn btn-default">7D</button>
-        <button type="button" disabled class="btn btn-default">1M</button>
-    </div>
-    <nvd3 options="vm.options" data="vm.data"></nvd3>
-</div>
