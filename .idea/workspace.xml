@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec76c459-2e71-4fa9-8312-549185e52c27" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/main.30e63109.js" afterPath="$PROJECT_DIR$/static/js/main.30e63109.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/charting_library/charting_library.min.js" afterPath="$PROJECT_DIR$/charting_library/charting_library.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.30e63109.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.30e63109.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/main.30e63109.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="0" column="543503" lean-forward="false" selection-start-line="0" selection-start-column="543503" selection-end-line="0" selection-end-column="543503" />
+            <state relative-caret-position="136">
+              <caret line="0" column="766363" lean-forward="false" selection-start-line="0" selection-start-column="766362" selection-end-line="0" selection-end-column="766363" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charting_library.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/charting_library/charting_library.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -28,6 +38,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>1025277724</find>
+      <find>5y</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -37,6 +48,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/static/js/main.30e63109.js" />
+        <option value="$PROJECT_DIR$/charting_library/charting_library.min.js" />
       </list>
     </option>
   </component>
@@ -109,12 +121,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558343223454</updated>
-      <workItem from="1558343224730" duration="1615000" />
+      <workItem from="1558343224730" duration="2024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1615000" />
+    <option name="totallyTimeSpent" value="2024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1423" y="-4" width="1543" height="904" extended-state="6" />
@@ -152,8 +164,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/js/main.30e63109.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="0" column="543503" lean-forward="false" selection-start-line="0" selection-start-column="543503" selection-end-line="0" selection-end-column="543503" />
+        <state relative-caret-position="136">
+          <caret line="0" column="766363" lean-forward="false" selection-start-line="0" selection-start-column="766362" selection-end-line="0" selection-end-column="766363" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charting_library/charting_library.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
